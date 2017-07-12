@@ -16,7 +16,7 @@ function addExcitement(theWordArray) {
     	let currentWord = theWordArray[i];
         output = output + " " + currentWord;
 
-        if (i % 3 === 0) {
+        if (i % 3 === 2) {
         	output = output + exclamation
         	exclamation = exclamation + "!"
         } 
